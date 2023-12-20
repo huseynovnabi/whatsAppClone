@@ -8,4 +8,56 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#Dom {
+  padding: 80px 0;
+}
+#Dom .chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  border: 20px solid #E8EDFF;
+  border-radius: 20px;
+}
+#Dom .chat .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7991E7;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 60px;
+}
+#Dom .chat .message h3 {
+  color: white;
+}
+#Dom .text {
+  background-color: #E8EDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+#Dom .text input {
+  border: 1px solid black;
+  margin-right: 10px;
+}
+#Dom .text .send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #94A6E6;
+  padding: 10px 20px;
+}
+#Dom .text input, #Dom .text .send {
+  border-radius: 20px;
+}
+#Dom .text input h3, #Dom .text .send h3 {
+  color: white;
+}
+#Dom .text input h3:hover, #Dom .text .send h3:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
