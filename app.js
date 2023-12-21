@@ -17,7 +17,7 @@ $(document).ready(function () {
             }
 
         }
-        // $("#messageyou").append(myel());
+        $("#messageyou").append(myel());
         $("#messageme").append(myel('class="end"'));
         $("inputme").val("");
         $("#messageme").scrollTo(0, $("#messageme").scrollHeight);
