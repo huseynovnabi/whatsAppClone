@@ -15,12 +15,11 @@ $(document).ready(function () {
             } else {
                 return
             }
-
         }
         $("#messageyou").append(myel());
         $("#messageme").append(myel('class="end"'));
         $("inputme").val("");
-        $("#messageme").scrollTo(0, $("#messageme").scrollHeight);
-        $("#messageyou").scrollTo(0, $("#messageyou").scrollHeight);
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight);
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight);
     });
 });
