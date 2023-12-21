@@ -19,7 +19,7 @@ $(document).ready(function () {
         $("#messageyou").append(myel());
         $("#messageme").append(myel('class="end"'));
         $("#inputme").val("");
-        document.querySelector("#messageme").scrollTop(0, document.querySelector("#messageme").scrollHeight);
-        document.querySelector("#messageyou").scrollTop(0, document.querySelector("#messageyou").scrollHeight);
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight);
+        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight);
     });
 });
