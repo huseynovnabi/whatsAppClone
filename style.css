@@ -18,7 +18,12 @@ a:hover {
   border-radius: 20px;
   margin-bottom: 50px;
 }
+#Dom .chat #messageme {
+  align-items: flex-end;
+}
 #Dom .chat .message {
+  display: flex;
+  flex-direction: column;
   height: 350px;
 }
 #Dom .chat .message div {
