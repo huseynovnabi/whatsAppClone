@@ -18,19 +18,11 @@ a:hover {
   border-radius: 20px;
   margin-bottom: 50px;
 }
-#Dom .chat #messageme, #Dom .chat #messageyou {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-#Dom .chat #messageyou {
-  align-items: flex-start;
-}
 #Dom .chat .message {
   height: 350px;
 }
 #Dom .chat .message div {
-  width: 60px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;

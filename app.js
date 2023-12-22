@@ -17,8 +17,10 @@ $(document).ready(function () {
             }
         }
         $("#messageyou").append(myel());
-        $("#messageme").append(myel('class="end"'));
+        $("#messageme").append(myel('class="end"'));// "end" class'ı işləmir
         $("#inputme").val("");
+
+        // scroll yaranmır
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight);
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight);
     });
