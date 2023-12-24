@@ -17,6 +17,7 @@ a:hover {
   border: 20px solid #202C33;
   border-radius: 20px;
   margin-bottom: 50px;
+  background-image: url("assets/whatsApp.jpeg");
 }
 #Dom .chat #messageme {
   align-items: flex-end;
@@ -54,7 +55,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #005C4B;
   padding: 10px 20px;
 }
 #Dom .text .send, #Dom .text input {
