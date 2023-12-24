@@ -19,52 +19,36 @@ a:hover {
   margin-bottom: 50px;
   background-image: url("assets/whatsApp.jpeg");
 }
-#Dom .chat #messageme {
-  align-items: flex-end;
+#Dom .chat ul {
+  height: 450px;
 }
-#Dom .chat .message {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-}
-#Dom .chat .message div {
+#Dom .chat ul li {
   width: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #005C4B;
+  color: #fff;
+  padding: 10px;
   margin: 10px;
   border-radius: 20px;
-}
-#Dom .chat .message div h3 {
-  color: white;
-}
-#Dom .text {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 20px solid #202C33;
-  background-color: #202C33;
+}
+#Dom .chat .sendMessage {
   padding-top: 20px;
-}
-#Dom .text input {
-  border: 2px solid #000;
-  margin-right: 10px;
-}
-#Dom .text .send {
+  background-color: #202C33;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #005C4B;
-  padding: 10px 20px;
 }
-#Dom .text .send, #Dom .text input {
+#Dom .chat .sendMessage input {
+  border: 2px solid #000;
   border-radius: 20px;
+  margin: 10px;
 }
-#Dom .text .send h3, #Dom .text input h3 {
-  color: #000;
+#Dom .chat .sendMessage button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #005C4B;
   font-weight: 700;
-}
-#Dom .text .send h3:hover, #Dom .text input h3:hover {
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
