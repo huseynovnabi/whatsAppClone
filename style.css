@@ -21,6 +21,8 @@ a:hover {
 }
 #Dom .chat ul {
   height: 450px;
+  display: flex;
+  flex-direction: column;
 }
 #Dom .chat ul li {
   width: 70px;
