@@ -24,14 +24,19 @@ a:hover {
 }
 #Dom .chat ul li {
   width: 70px;
-  background-color: #005C4B;
   color: #fff;
   padding: 10px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 0 10px 10px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#Dom .chat .lineMe li {
+  background-color: #005C4B;
+}
+#Dom .chat .lineYou li {
+  background-color: #353535;
 }
 #Dom .chat .sendMessage {
   padding-top: 20px;
@@ -50,5 +55,5 @@ a:hover {
   border-radius: 20px;
   padding: 10px 20px;
   background-color: #005C4B;
-  font-weight: 700;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
