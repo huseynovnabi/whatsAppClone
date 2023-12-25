@@ -19,25 +19,42 @@ a:hover {
   margin-bottom: 50px;
   background-image: url("assets/whatsApp.jpeg");
 }
-#Dom .chat ul {
+#Dom .chat .message::-webkit-scrollbar {
+  width: 4px;
+}
+#Dom .chat .message::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3294117647);
+  border-radius: 10px;
+}
+#Dom .chat .message::-webkit-scrollbar-track {
+  background-color: #202C33;
+}
+#Dom .chat .message {
   height: 450px;
+  overflow-y: auto;
+}
+#Dom .chat .message ul {
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
 }
-#Dom .chat ul li {
-  width: 70px;
+#Dom .chat .message ul li {
+  width: 30%;
   color: #fff;
   padding: 10px;
   margin: 10px;
   border-radius: 0 10px 10px 10px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  word-break: break-all;
 }
-#Dom .chat .lineMe li {
+#Dom .chat .message .forUl {
+  align-items: flex-end;
+}
+#Dom .chat .message .lineMe li {
   background-color: #005C4B;
 }
-#Dom .chat .lineYou li {
+#Dom .chat .message .lineYou li {
   background-color: #353535;
 }
 #Dom .chat .sendMessage {

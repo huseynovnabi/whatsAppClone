@@ -5,25 +5,39 @@
         border-radius: 40px
         margin-bottom: 50px
         background-image: url("assets/whatsApp.jpeg")
-        ul
+        .message::-webkit-scrollbar
+            width: 4px
+
+        .message::-webkit-scrollbar-thumb
+            background-color: #ffffff54
+            border-radius: 10px
+
+        .message::-webkit-scrollbar-track
+            background-color: #202C33
+        .message
             height: 450px
-            display: flex
-            flex-direction: column
-            li
-                width: 70px
-                color: #fff
-                padding: 10px
-                margin: 10px
-                border-radius: 0 10px 10px 10px
+            overflow-y: auto
+            ul
                 display: flex
-                justify-content: center
-                align-items: center
-        .lineMe
-            li
-                background-color: #005C4B
-        .lineYou
-            li
-                background-color: #353535
+                flex-direction: column
+                line-height: 1.5
+                li
+                    width: 30%
+                    color: #fff
+                    padding: 10px
+                    margin: 10px
+                    border-radius: 0 10px 10px 10px
+                    display: flex
+                    align-items: center
+                    word-break: break-all
+            .forUl
+                align-items: flex-end
+            .lineMe
+                li
+                    background-color: #005C4B
+            .lineYou
+                li
+                    background-color: #353535
         .sendMessage
             padding-top: 20px
             background-color: #202C33
