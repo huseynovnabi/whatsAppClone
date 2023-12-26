@@ -39,14 +39,15 @@ a:hover {
   line-height: 1.5;
 }
 #Dom .chat .message ul li {
-  width: 30%;
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+  display: inline-block;
   color: #fff;
   padding: 10px;
   margin: 10px;
   border-radius: 0 10px 10px 10px;
-  display: flex;
-  align-items: center;
-  word-break: break-all;
+  word-wrap: break-word;
 }
 #Dom .chat .message .forUl {
   align-items: flex-end;
