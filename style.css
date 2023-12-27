@@ -20,7 +20,7 @@ a:hover {
   background-image: url("assets/whatsApp.jpeg");
 }
 #Dom .chat .message::-webkit-scrollbar {
-  width: 4px;
+  width: 0;
 }
 #Dom .chat .message::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.3294117647);
