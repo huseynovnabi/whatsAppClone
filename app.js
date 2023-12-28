@@ -17,6 +17,9 @@ $(document).ready(function () {
         $("#ulYou").append(myel("class='lineYou'"));
         $("#ulMe").append(myel('class="forUl lineMe"'));
         $("#inputMe").val("");
+
+        document.querySelector("#messageMe").scrollTo(0, document.querySelector("#messageMe").scrollHeight);
+        document.querySelector("#messageYou").scrollTo(0, document.querySelector("#messageYou").scrollHeight);
     });
 
 
@@ -38,5 +41,10 @@ $(document).ready(function () {
         $("#ulMe").append(myel("class='lineYou'"));
         $("#ulYou").append(myel('class="forUl lineMe"'));
         $("#inputYou").val("");
+
+        document.querySelector("#messageMe").scrollTo(0, document.querySelector("#messageMe").scrollHeight);
+        document.querySelector("#messageYou").scrollTo(0, document.querySelector("#messageYou").scrollHeight);
+
+
     });
 });
